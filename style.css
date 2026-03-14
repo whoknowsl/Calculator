@@ -1,0 +1,165 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+*:not(dialog) {
+  margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 32px;
+    letter-spacing: 2px;
+    word-spacing: -4px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
+
+.container{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    border: 25px outset ;
+    border-radius: 40px 40px 0px 0px;
+}
+
+.calcul{
+    padding: 30px;
+}
+#resault{
+    overflow-wrap: break-word;
+    color: aliceblue;
+    background-color: black;
+    padding: 30px;
+    border-radius: 5px;
+    font-size: 32px;
+}
+#remove{
+    height: 50px;
+    width: 50px;
+    padding: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    
+}
+.number{
+    background-color: grey;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    padding:30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
+.operation{
+    display: none;
+    background-color: #FF9D00;
+    color: aliceblue;
+    height: 50px;
+    width: 50px;
+    padding:30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
+#reset{
+    height: 50px;
+    width: 50px;
+    padding:30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
+#decimal{
+    background-color: gray;
+    height: 50px;
+    width: 50px;
+    padding:30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
+#equals{
+    background-color: gray;
+    height: 50px;
+    width: 50px;
+    padding:30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
+#equals:active{
+    transition: width 2s;
+    opacity: 70%;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.number:active{
+    transition: width 2s;
+    opacity: 70%;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+#decimal:active{
+    transition: width 2s;
+    opacity: 70%;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+#reset:active{
+    transition: width 2s;
+    opacity: 70%;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+#remove:active{
+    transition: width 2s;
+    opacity: 70%;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.operation:active{
+    transition: width 2s;
+    opacity: 70%;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
