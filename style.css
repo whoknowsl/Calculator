@@ -64,6 +64,58 @@ body{
     justify-content: center;
     font-size: 32px;
 }
+.plus{
+    display: none;
+    background-color: #FF9D00;
+    color: aliceblue;
+    height: 50px;
+    width: 50px;
+    padding:30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
+.divide{
+    display: none;
+    background-color: #FF9D00;
+    color: aliceblue;
+    height: 50px;
+    width: 50px;
+    padding:30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
+.subtract{
+    display: none;
+    background-color: #FF9D00;
+    color: aliceblue;
+    height: 50px;
+    width: 50px;
+    padding:30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
+.multiply{
+    display: none;
+    background-color: #FF9D00;
+    color: aliceblue;
+    height: 50px;
+    width: 50px;
+    padding:30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
 .operation{
     display: none;
     background-color: #FF9D00;
